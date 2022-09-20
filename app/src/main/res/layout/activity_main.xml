@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="cursive"
+        android:text="Rangking"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+
+        <TableRow android:background="@android:color/holo_green_light">
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Rank" />
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="NickName" />
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Team" />
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Points" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="1" />
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="NEKO" />
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="JPN" />
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="85" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="2" />
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Blacks" />
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="IND" />
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="83" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="3" />
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="scara" />
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="USA" />
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="74" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="4" />
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="YourDream" />
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="THA" />
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="72" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="5" />
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Nothing" />
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="PHI" />
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="70" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
